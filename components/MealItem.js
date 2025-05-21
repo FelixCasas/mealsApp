@@ -40,7 +40,7 @@ function MealItem({ id, title, imageUrl, duration, complexity, affordability}) {
     )
 }
 
-export default mealItem
+export default MealItem
 
 const styles = StyleSheet.create({
     mealItem: {
