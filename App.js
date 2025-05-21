@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native'
-import CategoriesScreen from "./screen/CategoriesScreen";
+import CategoriesScreens from "./screen/CategoriesScreens";
 import { StatusBar } from 'expo-status-bar';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack'
 import MealsOverviewScreen from './screens/MealsOverviewScreen';
-import MealsDetailScree from './screens/MealsDetailScree';
+import MealDetailScreen from './screens/MealDetailScreen';
 
 const Stack = createStackNavigator();
 
@@ -24,7 +24,7 @@ export default function App() {
         >
           <Stack.Screen
             name='MealsCategories'
-            component={CategoriesScreen}
+            component={CategoriesScreens}
           />
           <Stack.Screen
             name="MealsOverview"
@@ -37,7 +37,7 @@ export default function App() {
           />
           <Stack.Screen
             name='MealDetail'
-            component={MealsDetailScree}
+            component={MealDetailScreen}
           />
         </Stack.Navigator>
       </NavigationContainer>

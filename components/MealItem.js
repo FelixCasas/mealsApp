@@ -30,7 +30,9 @@ function MealItem({ id, title, imageUrl, duration, complexity, affordability}) {
                         </Text>
                     </View>
                     <MealDetails 
-                        duration
+                        duration={duration}
+                        complexity={complexity}
+                        affordability={affordability}
                     />
                 </View>
             </Pressable>
