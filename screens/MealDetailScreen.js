@@ -18,7 +18,7 @@ function MealDetailScree({route, navigation}) {
                 affordability={selectedMeal.affordability}
             />
             <View>
-                <Text style={styles.subtitle}>Notas</Text>
+                <Text style={styles.subtitle}>Acordes</Text>
                 {selectedMeal.ingredients.map(ingredients => <Text style={styles.textContent} key={ingredients}>{ingredients}</Text>)}
                 <Text style={styles.subtitle}>Descripción</Text>
                 {selectedMeal.steps.map(step => <Text style={styles.textContent} key={step}>{step}</Text>)}
