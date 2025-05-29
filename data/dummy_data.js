@@ -4,15 +4,15 @@ import Meal from '../models/meal';
 
 export const CATEGORIES = [
   new Category('c1', 'Jean Paul Gaultier', '#f5428d', 'https://commons.wikimedia.org/wiki/File:Jean_Paul_Gaultier_logo.svg'),
-  new Category('c2', 'Armani', '#f54242'),
-  new Category('c3', 'Dior', '#f5a442'),
-  new Category('c4', 'Carolina Herrera', '#f5d142'),
-  new Category('c5', 'Creed', '#368dff'),
-  new Category('c6', 'Parfums de Marly', '#41d95d'),
-  new Category('c7', 'Versace', '#9eecff'),
-  new Category('c8', 'Yves Saint Laurent', '#b9ffb0'),
-  new Category('c9', 'Tom Ford', '#ffc7ff'),
-  new Category('c10', 'Xerjoff', '#47fced')
+  new Category('c2', 'Armani', '#f54242', 'https://commons.wikimedia.org/wiki/File:Jean_Paul_Gaultier_logo.svg'),
+  new Category('c3', 'Dior', '#f5a442', 'https://commons.wikimedia.org/wiki/File:Jean_Paul_Gaultier_logo.svg'),
+  new Category('c4', 'Carolina Herrera', '#f5d142', 'https://commons.wikimedia.org/wiki/File:Jean_Paul_Gaultier_logo.svg'),
+  new Category('c5', 'Creed', '#368dff', 'https://commons.wikimedia.org/wiki/File:Jean_Paul_Gaultier_logo.svg'),
+  new Category('c6', 'Parfums de Marly', '#41d95d', 'https://commons.wikimedia.org/wiki/File:Jean_Paul_Gaultier_logo.svg'),
+  new Category('c7', 'Versace', '#9eecff', 'https://commons.wikimedia.org/wiki/File:Jean_Paul_Gaultier_logo.svg'),
+  new Category('c8', 'Yves Saint Laurent', '#b9ffb0', 'https://commons.wikimedia.org/wiki/File:Jean_Paul_Gaultier_logo.svg'),
+  new Category('c9', 'Tom Ford', '#ffc7ff', 'https://commons.wikimedia.org/wiki/File:Jean_Paul_Gaultier_logo.svg'),
+  new Category('c10', 'Xerjoff', '#47fced', 'https://commons.wikimedia.org/wiki/File:Jean_Paul_Gaultier_logo.svg')
 ];
 
 export const MEALS = [
