@@ -18,9 +18,9 @@ export default function App() {
       <NavigationContainer>
         <Stack.Navigator
           screenOptions={{
-              headerStyle: { backgroundColor: '#987070'},
-              headerTintColor: 'white',
-              contentStyle: { backgroundColor: '#F1E5D1'}
+              headerStyle: { backgroundColor: '#b57ede'},
+              headerTintColor: 'dark',
+              contentStyle: { backgroundColor: '#'}
           }}
         >
           <Stack.Screen 
@@ -32,8 +32,8 @@ export default function App() {
             component={MealsOverviewScreen}
             options={{
               title: 'All categories',
-              headerTintColor: 'white',
-              contentStyle: { backgroundColor: '#C39898'}
+              headerTintColor: 'dark',
+              contentStyle: { backgroundColor: '#b57ede'}
             }} 
           />
           <Stack.Screen 

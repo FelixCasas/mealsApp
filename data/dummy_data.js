@@ -1,8 +1,9 @@
 import Category from '../models/category';
 import Meal from '../models/meal';
 
+
 export const CATEGORIES = [
-  new Category('c1', 'Jean Paul Gaultier', '#f5428d'),
+  new Category('c1', 'Jean Paul Gaultier', '#f5428d', 'https://commons.wikimedia.org/wiki/File:Jean_Paul_Gaultier_logo.svg'),
   new Category('c2', 'Armani', '#f54242'),
   new Category('c3', 'Dior', '#f5a442'),
   new Category('c4', 'Carolina Herrera', '#f5d142'),
@@ -502,7 +503,8 @@ export const MEALS = [
       'Fresco especiado'
     ],
     [
-      'Erba Pura de Xerjoff es una fragancia de la familia olfativa Oriental para Hombres y Mujeres. Erba Pura se lanzó en 2019. Erba Pura fue creada por Christian Carbonnel y Laura Santander. Las Notas de Salida son naranja siciliana, bergamota de Calabria y limón siciliano (lima siciliana); la Nota de Corazón es frutas; las Notas de Fondo son almizcle blanco, vainilla de Madagascar y ámbar.'
+      'Erba Pura de Xerjoff es una fragancia de la familia olfativa Oriental para Hombres y Mujeres. Erba Pura se lanzó en 2019. Erba Pura fue creada por Christian Carbonnel y Laura Santander. Las Notas de Salida son naranja siciliana, bergamota de Calabria y limón siciliano (lima siciliana); la Nota de Corazón es frutas; las Notas de Fondo son almizcle blanco, vainilla de Madagascar y ámbar.',
+      
     ],
     true,
     true,
