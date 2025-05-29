@@ -24,7 +24,7 @@ export default function App() {
           }}
         >
           <Stack.Screen 
-            name="MealsCategories" 
+            name="PerfumeCategories" 
             component={CategoriesScreen}
           />
           <Stack.Screen 
