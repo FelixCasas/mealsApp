@@ -28,6 +28,7 @@ function CategoriesScreen({navigation}) {
             keyExtractor={(item) => item.id}
             renderItem={renderCategoryItem}
             numColumns={2}
+            style={{backgroundColor:'#F2F2F2'}}
         />
     )
 }

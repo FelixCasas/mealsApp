@@ -5,11 +5,11 @@ function CategoryGridTile({ title, color, imageUrl, onPress }) {
   return (
     <View style={[styles.gridItem, { backgroundColor: color }]}>
       <Pressable
-        android_ripple={{ color: '#ccc' }}
+        android_ripple={{ color: '#077A7D' }}
         style={({ pressed }) => [styles.button, pressed && styles.buttonPressed]}
         onPress={onPress}
       >
-        <ImageBackground source={{imageUrl}}  style={styles.imageUrl}>
+        <ImageBackground source={{uri:imageUrl}}  style={styles.imageUrl}>
           <View style={styles.innerContainer}>
           
             <Text style={styles.title}>{title}</Text>
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     elevation: 6,
-    shadowColor: '#b57ede',
+    shadowColor: '#077A7D',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.1,
     shadowRadius: 10,
@@ -50,7 +50,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   imageUrl: {
-    height: '100%'
+    height: 150,
+    width:180
   },
   title: {
     fontWeight: 'bold',
